@@ -26,7 +26,7 @@ h1 {
 
 #leftmenu {
   float: left;
-  width: 25%;
+  width: 20%;
   position: fixed;
   left: 0;
   top: 0;
@@ -35,11 +35,12 @@ h1 {
 }
 
 .container {
-  margin-left: 25%;
+  margin-left: 20%;
 }
 
 #color-buttons {
   cursor: pointer;
+  margin: 5px;
 }
 
 #color-buttons:hover {
@@ -47,7 +48,7 @@ h1 {
 }
 
 #navbar {
-  background-color: #E2BBC1;
+  background-color: #DC6C6F;
 }
 
 #mobile-demo {
@@ -59,7 +60,7 @@ figure {
 	height: 42px;
 	margin: 0;
 	padding: 0;
-	background: #E2BBC1;
+	background: #DC6C6F;
 	overflow: hidden;
   border-radius: 5px;
 }
