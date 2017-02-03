@@ -2,6 +2,14 @@ body {
   background-color: #E2BBC1;
 }
 
+h1 {
+  font-family: 'Satisfy', cursive;
+}
+
+#under-title {
+  font-family: 'Niconne', cursive;
+}
+
 .menuview {
   display: none;
 }
