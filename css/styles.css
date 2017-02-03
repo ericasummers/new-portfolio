@@ -30,19 +30,41 @@ body {
   margin-left: 25%;
 }
 
-.color {
+#color-buttons {
   cursor: pointer;
-  padding: 20px;
 }
 
-.color:hover {
+#color-buttons:hover {
   color: red;
 }
 
-.nav-wrapper {
-  background-color: #4D79A8;
+#navbar {
+  background-color: #E2BBC1;
 }
 
 #mobile-demo {
   background-color: #4D79A8;
+}
+
+figure {
+	width: 58px;
+	height: 42px;
+	margin: 0;
+	padding: 0;
+	background: #E2BBC1;
+	overflow: hidden;
+  border-radius: 5px;
+}
+figure:hover+span {
+	bottom: -36px;
+	opacity: 1;
+}
+
+#color-buttons figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#color-buttons figure:hover img {
+	opacity: .5;
 }
