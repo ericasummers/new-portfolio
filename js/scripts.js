@@ -10,7 +10,10 @@
 
 $(document).ready(function() {
   $(".nomenuview").click(function() {
+    $("#eyes-open").toggle();
+    $("#eyes-closed").toggle();
     $(".menuview").slideToggle();
+
   });
 
 
@@ -22,10 +25,10 @@ $(document).ready(function() {
     $("figure").css("background-color", "#394E9E");
   });
   $("#red").click(function() {
-    $("body").css("background-color", "#E2BBC1");
-    $("#navbar").css("background-color", "#DC6C6F");
-    $(".navbar-toggle").css("background-color", "#E2BBC1");
-    $("figure").css("background-color", "#DC6C6F");
+    $("body").css("background-color", "#D6BDB8");
+    $("#navbar").css("background-color", "#B89492");
+    $(".navbar-toggle").css("background-color", "#D6BDB8");
+    $("figure").css("background-color", "#B89492");
   });
   $("#green").click(function() {
     $("body").css("background-color", "#5BB280");

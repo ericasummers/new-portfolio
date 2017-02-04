@@ -6,25 +6,42 @@
     <script src="js/jquery-3.1.1.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/scripts.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Niconne|Satisfy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Niconne|Satisfy" rel="stylesheet">
     <meta charset="utf-8">
     <title>Erica W Developer Portfolio</title>
   </head>
   <body>
     <div id="leftmenu">
       <div class="nomenuview">
-        <img src="img/blue-upsidedown-small.png">
+          <figure id="click-image"><img src="img/blue-upsidedown-down.png" alt="Girl with sunglasses over eyes" id="eyes-closed"></figure>
+          <img src="img/blue-upsidedown-up.png" alt="Girl with sunglasses above eyes" id="eyes-open">
       </div>
       <div class="menuview">
-        <h4><a href="#">Home</a></h4>
-        <h4><a href="#">PLAY</a></h4>
-        <h4><a href="#">WORK</a></h4>
-        <h4><a href="#">ABOUT</a></h4>
+        <div class="panel">
+          <div class="panel-body">
+            <h4><a href="#">HOME</a></h4>
+          </div>
+        </div>
+        <div class="panel">
+          <div class="panel-body">
+            <h4><a href="#">PLAY</a></h4>
+          </div>
+        </div>
+        <div class="panel">
+          <div class="panel-body">
+            <h4><a href="#">WORK</a></h4>
+          </div>
+        </div>
+        <div class="panel">
+          <div class="panel-body">
+            <h4><a href="#">ABOUT</a></h4>
+          </div>
+        </div>
       </div>
     </div>
 
     <div class="container">
-      <h1>Erica W Portfolio: <span id="under-title">Visual artist and developer</span></h1>
+      <h1>Erica W: <span id="under-title">Visual artist and developer</span></h1>
 
 
       <nav class="navbar" id="navbar">
@@ -44,9 +61,9 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav" id="color-buttons">
-              <li><figure id="blue"><img src="img/blue-box.png"></figure></li>
-              <li><figure id="red"><img src="img/red-box.png"></figure></li>
-              <li><figure id="green"><img src="img/green-box.png"></figure></li>
+              <li><figure class="colors-switch" id="blue"><img src="img/blue-box.png"></figure></li>
+              <li><figure class="colors-switch" id="red"><img src="img/red-box.png"></figure></li>
+              <li><figure class="colors-switch" id="green"><img src="img/green-box.png"></figure></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
               <li><a href="#">Link</a></li>
