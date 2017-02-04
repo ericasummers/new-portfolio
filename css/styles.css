@@ -26,16 +26,16 @@ h1 {
 
 #leftmenu {
   float: left;
-  width: 20%;
+  width: 220px;
   position: fixed;
-  left: 0;
+  left: 0px;
   top: 0;
   bottom: 0;
   margin: 0px;
 }
 
 .container {
-  margin-left: 20%;
+  margin-left: 220px;
 }
 
 #color-buttons {
