@@ -10,14 +10,11 @@ body {
 
 h1 {
   font-family: 'Satisfy', cursive;
+  color: #FFFFFF;
 }
 
 #under-title {
   font-family: 'Niconne', cursive;
-}
-
-.menuview {
-  display: none;
 }
 
 .nomenuview {
@@ -35,7 +32,7 @@ h1 {
   margin-left: 15px;
 }
 
-#eyes-open {
+#peach-closed, #red-closed, #red-open, #lightblue-open, #lightblue-closed, #darkblue-closed, #darkblue-open, #green-closed, #green-open, #gray-open, #gray-closed {
   display: none;
 }
 
@@ -49,10 +46,17 @@ h1 {
 
 .container {
   margin-left: 220px;
+  width: 90%;
 }
 
 #main-content {
   background-color: #7188c2;
+  text-align: center;
+  width: 90%;
+}
+
+#main-content p {
+  text-align: left;
 }
 
 #color-buttons {
@@ -63,6 +67,8 @@ h1 {
 #navbar {
   background-color: #3f599a;
   color: #ffffff;
+  width: 92%;
+  position: static;
 }
 
 #mobile-demo {
@@ -98,6 +104,7 @@ a {
 
 a:hover {
   text-decoration: none;
+  color: #2edfef;
 }
 
 .footer {
@@ -107,5 +114,15 @@ a:hover {
   bottom: 0;
   width: 100%;
   height: 60px;
-  background-color: #a6a6a6;
+  line-height: 60px;
+  vertical-align: middle;
+  background-color: #f8ddc1;
+}
+
+.footer a {
+  color: #a57f66;
+}
+
+.footer a:hover {
+  color: #6c2a29;
 }
