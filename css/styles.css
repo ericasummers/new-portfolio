@@ -44,35 +44,69 @@ h1 {
   background-color: #3f599a;
 }
 
+.menuview .panel:hover {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
 .container {
   margin-left: 220px;
-  width: 90%;
+  position: fixed;
+  max-width: 90%;
+  overflow-x: hidden;
 }
 
 #main-content {
   background-color: #7188c2;
   text-align: center;
   width: 90%;
+  overflow-x: hidden;
 }
 
-#main-content p {
+#main-content .panel-body {
   text-align: left;
+}
+
+.show-name {
+  color: #FD2494;
 }
 
 #color-buttons {
   cursor: pointer;
-  margin: 5px;
+  margin: 0px;
 }
 
 #navbar {
   background-color: #3f599a;
   color: #ffffff;
-  width: 92%;
-  position: static;
+  max-width: 92%;
+  overflow-x: hidden;
+  font-family: 'Fredoka One', cursive;
 }
 
 #mobile-demo {
   background-color: #4D79A8;
+}
+
+.navbar-toggle {
+  background-color: #D6BDB8;
 }
 
 .colors-switch {
@@ -84,7 +118,7 @@ h1 {
 	overflow: hidden;
   border-radius: 5px;
 }
-.colors-switch:hover+span {
+.colors-switch:hover {
 	bottom: -36px;
 	opacity: 1;
 }

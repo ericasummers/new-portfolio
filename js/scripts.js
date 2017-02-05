@@ -49,6 +49,9 @@ $(document).ready(function() {
     $(".colors-switch").css("background-color", "#3f599a");
     $(".panel").css("background-color", "#3f599a");
     $("#main-content").css("background-color", "#7188c2");
+    if ($("#peach-open").is(":visible")) {
+      $(".menuview").show();
+    }
   });
   $("#red").click(function() {
     $("#red-open").show();
@@ -59,6 +62,9 @@ $(document).ready(function() {
     $(".colors-switch").css("background-color", "#b34e4e");
     $(".panel").css("background-color", "#ff9494");
     $("#main-content").css("background-color", "#efdbc8");
+    if ($("#red-open").is(":visible")) {
+      $(".menuview").show();
+    }
   });
   $("#light-blue").click(function() {
     $("#lightblue-open").show();
@@ -69,6 +75,9 @@ $(document).ready(function() {
     $(".colors-switch").css("background-color", "#357c89");
     $(".panel").css("background-color", "#4c9c7d");
     $("#main-content").css("background-color", "#526c77");
+    if ($("#lightblue-open").is(":visible")) {
+      $(".menuview").show();
+    }
   });
   $("#dark-blue").click(function() {
     $("#darkblue-open").show();
@@ -79,6 +88,9 @@ $(document).ready(function() {
     $(".colors-switch").css("background-color", "#61bfea");
     $(".panel").css("background-color", "#9679d7");
     $("#main-content").css("background-color", "#34a2db");
+    if ($("#darkblue-open").is(":visible")) {
+      $(".menuview").show();
+    }
   });
   $("#green").click(function() {
     $("#green-open").show();
@@ -89,6 +101,9 @@ $(document).ready(function() {
     $(".colors-switch").css("background-color", "#3b8c72");
     $(".panel").css("background-color", "#d7907a");
     $("#main-content").css("background-color", "#cab59c");
+    if ($("#green-open").is(":visible")) {
+      $(".menuview").show();
+    }
   });
   $("#gray").click(function() {
     $("#gray-open").show();
@@ -99,5 +114,8 @@ $(document).ready(function() {
     $(".colors-switch").css("background-color", "#557187");
     $(".panel").css("background-color", "#4a5062");
     $("#main-content").css("background-color", "#c5dae3");
+    if ($("#gray-open").is(":visible")) {
+      $(".menuview").show();
+    }
   });
 });
