@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Niconne|Satisfy" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Erica W Developer Portfolio</title>
+  </head>
+  <body>
+    <div id="leftmenu">
+      <div class="nomenuview">
+          <img src="img/blue-upsidedown-down.png" alt="Girl with sunglasses over eyes" class="eyes-peach" id="peach-closed">
+          <img src="img/blue-upsidedown-up.png" alt="Girl with sunglasses above eyes" class="eyes-peach" id="peach-open">
+
+          <img src="img/brown-upsidedown-down.png" alt="Girl with sunglasses over eyes" class="eyes-red" id="red-closed">
+          <img src="img/brown-upsidedown-up.png" alt="Girl with sunglasses above eyes" class="eyes-red" id="red-open">
+          <img src="img/lightblue-upsidedown-down.png" alt="Girl with sunglasses over eyes" class="eyes-lightblue" id="lightblue-closed">
+          <img src="img/lightblue-upsidedown-up.png" alt="Girl with sunglasses above eyes" class="eyes-lightblue" id="lightblue-open">
+          <img src="img/purple-upsidedown-down.png" alt="Girl with sunglasses over eyes" class="eyes-darkblue" id="darkblue-closed">
+          <img src="img/purple-upsidedown-up.png" alt="Girl with sunglasses above eyes" class="eyes-darkblue" id="darkblue-open">
+          <img src="img/red-upsidedown-down.png" alt="Girl with sunglasses over eyes" class="eyes-green" id="green-closed">
+          <img src="img/red-upsidedown-up.png" alt="Girl with sunglasses above eyes" class="eyes-green" id="green-open">
+          <img src="img/gray-upsidedown-down.png" alt="Girl with sunglasses over eyes" class="eyes-gray" id="gray-closed">
+          <img src="img/gray-upsidedown-up.png" alt="Girl with sunglasses above eyes" class="eyes-gray" id="gray-open">
+      </div>
+      <div class="menuview">
+        <div class="panel">
+          <a href=index.html>
+            <div class="panel-body">
+              <h4>HOME</h4>
+            </div>
+          </a>
+        </div>
+        <div class="panel">
+          <a href=play.html>
+            <div class="panel-body">
+              <h4>PLAY</h4>
+            </div>
+          </a>
+        </div>
+        <div class="panel">
+          <a href=work.html>
+            <div class="panel-body">
+              <h4>WORK</h4>
+            </div>
+          </a>
+        </div>
+        <div class="panel">
+          <a href=about.html>
+            <div class="panel-body">
+              <h4>ABOUT</h4>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <a href="index.html"><h1>Erica W / <span id="under-title">Visual artist and developer</span></h1></a>
+
+
+      <nav class="navbar" id="navbar">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <h5>Choose your styling:</h5>
+            <!-- <a class="navbar-brand" href="#">Brand</a> -->
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav" id="color-buttons">
+              <li><figure class="colors-switch" id="peach"><img src="img/peach.gif"></figure></li>
+              <li><figure class="colors-switch" id="red"><img src="img/red.gif"></figure></li>
+              <li><figure class="colors-switch" id="light-blue"><img src="img/light-blue.gif"></figure></li>
+              <li><figure class="colors-switch" id="dark-blue"><img src="img/dark-blue.gif"></figure></li>
+              <li><figure class="colors-switch" id="green"><img src="img/green.gif"></figure></li>
+              <li><figure class="colors-switch" id="gray"><img src="img/gray.gif"></figure></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">Reset</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+
+      <div class="panel" id="main-content">
+        <div class="panel-body">
+          <p>WORK | Various school projects and assignments</p>
+
+          <div class="individual-project">
+            <h4>Valiant Log</h4>
+            <a href="https://valiant-log.firebaseapp.com/"><img src="img/screenshot2.jpg" alt="Screenshot of Valiant Log Website" class="screenshot"></a>
+            <div class="project-description">
+              <p>Languages/Tools used:</p>
+              <p>Angular2, Typescript, Javascript, HTML, CSS, Firebase</p>
+              <p>Github: <a href="https://github.com/ericaw21/valiant-log">Project Link</a></p>
+              <p>Live site: <a href="https://valiant-log.firebaseapp.com/">Valiant Log</a></p>
+              <p>Description: This website created in Angular2 and Firebase is for a fictional space crew logging their rations. The website allows a user to enter a meal, edit, or delete, and browse meals. This was created as an independent project for Epicodus.</p>
+            </div>
+          </div>
+
+          <br>
+
+          <div class="individual-project">
+            <h4>Cutting Edge</h4>
+            <img src="img/screenshot5.jpg" alt="Screenshot of Cutting Edge Website" class="screenshot">
+            <div class="project-description">
+              <p>Languages/Tools used:</p>
+              <p>PHP, mySQL, CSS, HTML, Composer, Silex, Twig</p>
+              <p>Github: <a href="https://github.com/ericaw21/cutting-edge">Project Link</a></p>
+              <p>Description: This is a website created for a fictional hair salon called Cutting Edge. It allows a user to create stylists, add clients to them, and edit or delete them as desired. The data is stored in a mySQL database. This was created as an independent project for Epicodus.</p>
+            </div>
+          </div>
+
+          <br>
+
+          <div class="individual-project">
+            <h4>Hangman Wars</h4>
+            <img src="img/hangman.jpg" alt="Screenshot of Hangman Wars Game" class="screenshot">
+            <div class="project-description">
+              <p>Languages/Tools used:</p>
+              <p>PHP, mySQL, CSS, HTML, Composer, Silex, Twig, JavaScript, jQuery</p>
+              <p>Github: <a href="https://github.com/ericaw21/hangman-wars">Project Link</a></p>
+              <p>Description: This web application is a game we created as a team of four for an Epicodus school project. The game titled 'Hangman Wars' allows players to travel across a map of authors, trying to guess famous quotes before their army runs out of soldiers. Each successful phrase unlocked gives the player more soldiers and unlocks the next level on the map until they have gotten all the way across to victory. This game was an interesting exercise in creating classes and storing and parsing phrases in PHP and then passing them across to JavaScript as JSON files that were then used on the front end for the gameplay portion.</p>
+            </div>
+          </div>
+
+          <br>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+
+    </div>
+
+
+    <footer class="footer">
+        <p>All website images and content are Copyright (c) 2017 <a href="http://github.com/ericaw21">Erica Wright</a> All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
