@@ -72,6 +72,8 @@ h5 {
 
 .container {
   margin-left: 220px;
+  max-width: 80%;
+  overflow-x: hidden;
 }
 
 #main-content {
